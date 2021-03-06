@@ -1,0 +1,24 @@
+{
+  "name": "u2ftoken",
+  "version": "0.0.1",
+  "description": "A software token for testing u2f implementations. It supports SECPR1WithSHA256 and SECPK1WithKeccak256.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBreuer2/u2f-virtualtoken.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FBreuer2/u2f-virtualtoken/issues"
+  },
+  "homepage": "https://github.com/FBreuer2/u2f-virtualtoken#readme",
+  "dependencies": {
+    "ec-pem": "^0.18.0",
+    "ethereumjs-util": "^6.1.0",
+    "jsrsasign": "^8.0.12"
+  }
+}
